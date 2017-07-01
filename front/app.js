@@ -1,7 +1,6 @@
 (function(){
 
-
-    document.getElementById("screen").innerHTML = navigator.onLine;
+    
     console.log("passou");
      var h = document.getElementById("helo");        
         fetch("http://localhost:8080/users/", {
